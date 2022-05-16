@@ -1,0 +1,57 @@
+.menubar{  
+    width: 90%;
+    padding:16px;
+    background-color: gray;
+    display: flex;
+        margin:0 auto;
+}
+.menu-dropdown {   
+    display: flex;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+}
+.menu-dropdown .md-item{  
+    position: relative;   
+}
+.menu-dropdown .md-item:hover{ /* efeito hover nos itens do menu principal */
+    background-color:black;
+}
+.menu-dropdown .md-item a{
+    color: #fff; 
+    padding:16px;
+    text-decoration: none;
+    display: flex;
+}
+.menu-dropdown .md-item a:hover{ /* efeito hover nos links do menu principal */
+    background-color: black;
+}
+.submenu-dropdown{
+    display: none; /* esconde o submenu dropdown */
+    position: absolute;
+    width:100%;  
+}
+.sd-item:hover .submenu-dropdown{
+    display: flex;  
+}
+.submenu-dropdown .sd-item{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 100%;
+    width: 100%;
+ }
+.submenu-dropdown .sd-item a{
+    width:100%;
+    padding:16px;
+    background-color: black;
+    color: #fff; 
+}
+.submenu-dropdown .sd-item a:hover { /* efeito hover nos itens do submenu dropdown */
+    background-color: gray;
+}
+.menu-dropdown .md-item:hover .submenu-dropdown{   /*efeito hover para alterar a cor de fundo*/
+    background-color: black; 
+    display: flex; /* exibir o submenu dropdown */
+}

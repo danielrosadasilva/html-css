@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cursosflex{
+    display: flex; 
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.cursosflex>div{
+    flex:1 1 200px;
+    margin: 10px;
+}
+.cursosgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.cursosgrid>div{
+    flex-wrap: wrap;
+}

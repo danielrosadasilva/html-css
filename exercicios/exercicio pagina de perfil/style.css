@@ -1,0 +1,44 @@
+@charset "UTF-8"
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: -webkit-linear-gradient(#705E78,#A5AAA3);
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow:10px 10px 15px #705E78;
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+    background-color: #fcebd8a6;
+    box-shadow:10px 10px 10px #491b1d;
+    text-shadow:3px 3px 6px #705E78;
+    color: #501d20;
+}
+h2{
+    font-style: italic;
+    background-color: #F3FEB0;
+    text-shadow: 3px 3px 6px #705E78;
+    box-shadow:3px 3px 3px black;
+    color: #812F33;
+}
+h3{
+    font-style: italic;
+    background-color: #F3FEB0;
+    text-shadow: 3px 3px 6px #705E78;
+    box-shadow:3px 3px 3px black;
+    color: #812F33;
+}
+p{
+    text-align: justify;
+    margin:30px
+}
