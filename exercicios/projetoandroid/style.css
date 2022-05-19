@@ -7,7 +7,7 @@
     src: url('fontes/Sheeping\ Dogs.ttf') format('truetype');
 }
 :root{ 
-    --cor1: #023f0c;   /* declaração de variaveis em css */
+    --cor1: #008d36;   /* declaração de variaveis em css */
     --cor2: #023f0c;
     --cor3: #28c062;
     --cor4: #faf5f8;
@@ -25,9 +25,9 @@ body{
 
 header{
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     text-align: justify;
-    background-image: linear-gradient(to bottom, rgba(9, 168, 115,0), rgba(9, 168, 115, 0.473));
+    background-image: linear-gradient(to bottom, rgba(9, 168, 115,0), rgba(40, 192, 98, 0.473));
     margin-left: -9px;
     margin-right: -8px;
 }
@@ -37,23 +37,26 @@ header>h1{
     font-weight: 100;
     color: var(--cor4);
     margin-top: -8px;
+    text-shadow: rgba(0, 0, 0, 0.39) 0.1em 0.1em 0.2em;
 }
 header>p{
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
     color: var(--cor4);
+    text-shadow: black 3px 3px 3px;
+    
 }
 nav{
-    font-family: cursive;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    background-color: var(--cor1);  
+    background-color: var(--cor2);  
     padding: 5px; 
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.397);
 }
 nav>a{  
     text-decoration: none;
-    color:var(--cor3);     
+    color:var(--cor4);     
     font-weight: bold;
     border-radius: 5px;
     padding: 5px;
@@ -136,19 +139,35 @@ iframe{
 }
 #irina{
     display: block;
-    width: 100%;
+    position: relative;
+    margin-left: 0%;
+    width: 84%;
     margin-left: auto;
     margin-right: auto;
 }
 #robo{
+    display: block;
     position: relative;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
 }
 #bugdroid{
     position: relative;
-    width: 100%;
+    margin-left: 24%;
+    width: 44%;
+    text-align: center;
 }
 section>p{
     margin-left: 10px;
     margin-right: 10px;    
+}
+aside>h2{
+    color: var(--cor4);
+}
+h1{
+    text-shadow: #0000006b 3px 3px 4px;
+}
+h2{
+    text-shadow: #0000006b 3px 3px 4px;
 }
