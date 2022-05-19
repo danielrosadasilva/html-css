@@ -22,6 +22,7 @@
 body{
     background-color: var(--cor3); /* bacground-color: var(--cor1);  */
 }
+
 header{
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--cor2);
@@ -38,6 +39,8 @@ header>h1{
     margin-top: -8px;
 }
 header>p{
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
     color: var(--cor4);
 }
@@ -63,7 +66,7 @@ nav>a:hover{
 
 }
 main{
-    margin: 13%;
+    margin: 3%;
     margin-top: 0.5%;
     background-color: var(--cor4);
     text-align: justify;
@@ -94,7 +97,13 @@ article>h1{
     background-image: linear-gradient(to left, var(--cor4), var(--cor3));
     margin-left: 10px;
 }
+
+#videoandroid{
+    padding: 10px;
+    background-color: var(--cor4);
+}
 aside{
+    padding-top: 20px;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--cor3);
@@ -126,10 +135,16 @@ iframe{
     height: 100%;
 }
 #irina{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#robo{
     position: relative;
     width: 100%;
 }
-#robo{
+#bugdroid{
     position: relative;
     width: 100%;
 }
