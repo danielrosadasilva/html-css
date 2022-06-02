@@ -58,7 +58,7 @@ nav>a{
     color:var(--cor4);     
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px;   
     transition-duration: 1s;
 }
 nav>a:hover{
