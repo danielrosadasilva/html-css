@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        
+        #conteiner{
+            background-size: 100% 100%;
+            position: relative;
+            background-image: url(imagens/target001.png);
+            background-color: rgb(4, 98, 180);
+            height: 96vh;
+            padding: 10px;
+            background-repeat: no-repeat;
+
+        }
+        #conteudo{
+            background-size: 100% 100%;
+            position: absolute;
+            background-color: rgba(184, 6, 140, 0.603);
+            background-image: url("imagens/target001.png");
+            height:200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%); /*para centralizar o conteudo*/
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo"></article>
+    </section>
+</body>
+</html>
